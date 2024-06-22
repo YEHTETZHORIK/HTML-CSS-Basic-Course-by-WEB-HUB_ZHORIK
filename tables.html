@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - WEB HUB</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+        body {
+            font-family: 'Padauk', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        h2 {
+            color: #4682b4;
+        }
+        p {
+            color: #555;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        .example-output {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .example-output table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .example-output th, .example-output td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .example-output th {
+            background-color: #f2f2f2;
+        }
+        .exercise {
+            background-color: #ffebcd;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .exercise h3 {
+            color: #ff4500;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Padauk', sans-serif;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>WEB HUB</h1>
+            <p>Founded by Zhorik</p>
+        </div>
+        <h1>Tables</h1>
+        <p>HTML တွင် အချက်အလက်များကို စာရင်းဇယားများအဖြစ် ဖော်ပြရန် &lt;table&gt; tag ကို အသုံးပြုသည်။ &lt;table&gt; tag ၏ အတွင်းတွင် &lt;tr&gt; (table row), &lt;th&gt; (table header), &lt;td&gt; (table data) တို့ကို အသုံးပြုပြီး ဇယားကို ဖော်ပြနိုင်သည်။</p>
+        
+        <h2>HTML Example</h2>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Tables Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+            &lt;th&gt;City&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;John&lt;/td&gt;
+            &lt;td&gt;25&lt;/td&gt;
+            &lt;td&gt;New York&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Jane&lt;/td&gt;
+            &lt;td&gt;30&lt;/td&gt;
+            &lt;td&gt;Los Angeles&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Mike&lt;/td&gt;
+            &lt;td&gt;35&lt;/td&gt;
+            &lt;td&gt;Chicago&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h2>Result</h2>
+        <div class="example-output">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+                <tr>
+                    <td>Mike</td>
+                    <td>35</td>
+                    <td>Chicago</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>ရှင်းပြချက်</h2>
+        <p>HTML တွင် &lt;table&gt; tag ကို အသုံးပြုပြီး စာရင်းဇယားများကို ဖော်ပြနိုင်သည်။ &lt;tr&gt; tag ကို အသုံးပြုပြီး ဇယားတန်းတစ်ခုစီကို ဖော်ပြပါ။ &lt;th&gt; tag ကို ဇယားခေါင်းစဉ်အချက်များအတွက် အသုံးပြုပြီး &lt;td&gt; tag ကို ဇယားတွင်းအချက်အလက်များအတွက် အသုံးပြုပါ။</p>
+        
+        <div class="exercise">
+            <h3>လေ့ကျင့်ခန်းများ</h3>
+            <p>အောက်ပါ လေ့ကျင့်ခန်းများကို ပြုလုပ်ပါ -</p>
+            <ol>
+                <li>HTML ဖိုင် အသစ်ဖန်တီးပြီး &lt;table&gt; tag ကို အသုံးပြုပြီး သင်၏ မိတ်ဆွေများ၏ အချက်အလက်များကို စာရင်းဇယားပြုစုပါ။</li>
+                <li>&lt;tr&gt;, &lt;th&gt;, &lt;td&gt; tag များကို အသုံးပြုပြီး ဇယား၏ တန်းများနှင့် အချက်အလက်များကို သတ်မှတ်ပါ။</li>
+                <li>ဇယားအတွက် စိတ်ကြိုက်ဒီဇိုင်းအရောင်များကို ထည့်သွင်းပြင်ဆင်ပါ။</li>
+            </ol>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 WEB HUB - Founded by Zhorik</p>
+            <p>Email: yehtetzanko420@gmail.com</p>
+            <p>Telegram: @zhorik9002</p>
+        </div>
+    </div>
+</body>
+</html>

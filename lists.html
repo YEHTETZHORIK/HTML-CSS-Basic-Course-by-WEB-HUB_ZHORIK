@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists - WEB HUB</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+        body {
+            font-family: 'Padauk', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        h2 {
+            color: #4682b4;
+        }
+        p {
+            color: #555;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        .example-output {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .example-output ul,
+        .example-output ol {
+            padding-left: 20px;
+        }
+        .example-output li {
+            margin: 5px 0;
+        }
+        .exercise {
+            background-color: #ffebcd;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .exercise h3 {
+            color: #ff4500;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Padauk', sans-serif;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>WEB HUB</h1>
+            <p>Founded by Zhorik</p>
+        </div>
+        <h1>Lists</h1>
+        <p>HTML တွင် စာရင်းများကို &lt;ul&gt; (unordered list) နှင့် &lt;ol&gt; (ordered list) tag များကို အသုံးပြုပြီး ရေးသားသည်။ &lt;li&gt; tag သည် "list item" အတွက် ရည်ရွယ်ပြီး စာရင်းအချက်တစ်ခုစီကို သတ်မှတ်ရန် အသုံးပြုသည်။</p>
+        
+        <h2>Unordered List Example</h2>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Unordered List Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Item 1&lt;/li&gt;
+        &lt;li&gt;Item 2&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        
+        <h2>Ordered List Example</h2>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Ordered List Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;ol&gt;
+        &lt;li&gt;First item&lt;/li&gt;
+        &lt;li&gt;Second item&lt;/li&gt;
+        &lt;li&gt;Third item&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h2>Result</h2>
+        <div class="example-output">
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+        </div>
+
+        <h2>ရှင်းပြချက်</h2>
+        <p>HTML တွင် &lt;ul&gt; tag ကို အသုံးပြုပြီး အစီအစဉ်မရှိသော စာရင်းများကို ဖော်ပြနိုင်သည်။ &lt;ol&gt; tag ကို အသုံးပြုပြီး အစီအစဉ်ရှိသော စာရင်းများကို ဖော်ပြနိုင်သည်။ &lt;li&gt; tag ကို အသုံးပြုပြီး စာရင်းအချက်တစ်ခုစီကို သတ်မှတ်နိုင်သည်။</p>
+        
+        <div class="exercise">
+            <h3>လေ့ကျင့်ခန်းများ</h3>
+            <p>အောက်ပါ လေ့ကျင့်ခန်းများကို ပြုလုပ်ပါ -</p>
+            <ol>
+                <li>HTML ဖိုင် အသစ်ဖန်တီးပြီး &lt;ul&gt; tag ကို အသုံးပြုပြီး သင်၏ အကြိုက်ဆုံး အစားအစာများကို စာရင်းပြုစုပါ။</li>
+                <li>&lt;ol&gt; tag ကို အသုံးပြုပြီး သင်၏ နေ့စဉ်လုပ်ဆောင်မှုများကို စာရင်းပြုစုပါ။</li>
+                <li>စိတ်ကြိုက် စာရင်းတစ်ခုကို ဖန်တီးပြီး &lt;li&gt; tag များကို အသုံးပြုပြီး အချက်တစ်ခုစီကို ရေးသားပါ။</li>
+            </ol>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 WEB HUB - Founded by Zhorik</p>
+            <p>Email: yehtetzanko420@gmail.com</p>
+            <p>Telegram: @zhorik9002</p>
+        </div>
+    </div>
+</body>
+</html>
